@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/slito.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/stilo.css">
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+	<link rel="icon" href="img/logo.png" type="image/x-icon" />
+
+	<title>Mazé Salgados</title>
+</head>
+<body>
+	<section>
+		<div class="nav">
+			<div class="nav__sub">
+				<!-- <span class="nav-title">Portifolio</span> -->
+				<div class="nav__sub--flutuante">
+					<div class="nav__sub--flutuante-sub">
+						<img src="img/cachorro.png" alt="" class="nav__sub--flutuante-img">	
+					</div>			
+				</div>
+			</div>
+			<div class="nav__container"> 
+				<a href="#about-me-1" class="nav__container--a">PEÇA JÁ</a>
+				<a href="#portifolio-2" class="nav__container--b">QUEM SOMOS</a>
+				<a href="#download-3" class="nav__container--c">FAZER PEDIDO</a>
+				<ul class="nav__container--sociais">
+					<li class="nav__container--stylo">Nos siga nas redes Sociais:</li>
+					<li class="nav__container--traco">&mdash;&mdash;&mdash;</li>
+					<li>
+						<a><img src="img/facebook.png" alt="" class="nav__container--facebook"></a>
+					</li>
+					<li>
+						<a><img src="img/twitter.png" alt="" class="nav__container--twitter"></a>
+					</li>
+					<li>
+						<a><img src="img/in.png" alt="" class="nav__container--in"></a>
+					</li>
+				</ul>
+			</div>
+			<img src="img/logo.png" alt="" class="nav__img-cachorro">					
+		</div>
+	</section>
+	<section>
+		<div  class="nav-meio">
+			<div class="nav-meio__wrap" id="about-me-1" >
+				<img src="img/coxinhas.jpg" alt="" class="nav-meio__wrap--img-div1">
+				<h2>Coxinhas</h2>
+				<p>Quem não gosta de uma coxinha crocante de frango ou queijo. </p>
+				<a href="#" class="nav-meio__wrap--button clicar1">SABER MAIS</a>
+			</div>
+			<div class="nav-meio__wrap">
+				<img src="img/div2.png" alt="" class="nav-meio__wrap--img-div2">
+				<h2 >Enrrolados</h2>
+				<p class="nav--title">Se voce gosta de um enrrolado super crocante e muito saboroso isso e pra voce.</p>
+				<a href="#" class="nav-meio__wrap--button clicar2">SABER MAIS</a>
+			</div>
+			<div class="nav-meio__wrap">
+				<img src="img/div3.png" alt="" class="nav-meio__wrap--img-div3">
+				<h2>Esfirra</h2>
+				<p class="nav--title2"> As melhores Esfirras da regiao peca ja a sua.</p>
+				<a href="#" class="nav-meio__wrap--button clicar3">SABER MAIS</a>
+			</div>
+		</div>
+	</section>
+	<h1>O que Temos Hoje</h1>
+	<span class="web">Faça seu pedido</span>
+	<section>
+		<div class="content alinhar">
+			<div class="content__heder">
+				<img src="img/cachorros4.jpg" alt="" class="content__heder--linha">
+			</div>
+			<div class="content__heder">
+				<img src="img/cachorros4.jpg" alt="" class="content__heder--linha">
+			</div>
+			<div class="content__heder">
+				<img src="img/cachorros4.jpg" alt="" class="content__heder--linha">
+			</div>
+			<div class="content__heder content-div"  id="portifolio-2">
+				<h3 class="content__heder--title">QUEM SOMOS</h3>
+				<p class="content__heder--text">Somos uma Empresa que pensa no cliente a cima de tudo e que preza pela hingienização dos produtos para uma boa qualidade de compra.Somos considerados os melhores salgados da cidade e contamos com você para crescer mais ainda. Venha conferir faça já o seu pedido por E-mail ou Watsapp</p>
+			</div>
+			<div class="content__heder">
+				<img src="img/cachorros4.jpg" alt="" class="content__heder--linha">
+			</div>
+		</div>
+	</section>
+	<h1 class="h1-title">Seja Nosso Cliente</h1>
+	<h4>Esperamos por Você</h4>
+	<section>
+		<div class="content-slick" id="download-3">
+			<div class="slick">
+			  <div class="slick--center"><img src="img/salgados.jpg" alt=""></div>
+			  <div class="slick--center"><img src="img/salgados.jpg" alt=""></div>
+			  <div class="slick--center"><img src="img/salgados.jpg" alt=""></div>
+			  <div class="slick--center"><img src="img/salgados.jpg" alt=""></div>
+			</div>		
+		</div>
+	</section>
+	<section>
+		<div class="bottom">
+			<h3 class="bottom__title">Nos mande seu pedido</h2>
+			<h4 class="bottom__sub">Ou no wats: (11) 97034-0979</h4>
+			<div class="buttom__email">
+				<input type="email" name="email" class="input">
+				<button class="buttom__email--button">PEDIR</button>
+			</div>		
+		</div>
+	</section>
+	<footer>
+		<div class="footer">
+			<div class="footer__title">
+				<span class="footer__title--sub">
+					<img src="img/logo.png" alt="" class="footer__title--img">
+				</span>
+				<div class="footer__abc">
+					<a href="#about-me-1" class="footer__abc--a">PEÇA JÁ</a>
+					<a href="#portifolio-2" class="footer__abc--b">QUEM SOMOS</a>
+					<a href="#download-3" class="footer__abc--c">FAZER PEDIDO</a>		
+				</div>
+				<div class="footer-footer">
+					<a class="foote-alinha"><img src="img/facebook.png" alt="" class="footer-facebook"></a>
+					<a class="foote-alinha"><img src="img/twitter.png" alt="" class="footer-twitter"></a>
+					<a class="foote-alinha"><img src="img/in.png" alt="" class="footer-in"></a>
+				</div>		
+			</div>
+			<div class="teste">
+				<div class="teste__estilo">
+					<img src="img/error.png" alt="" class="teste__estilo-img" >
+					<img src="img/coxinhas.jpg" alt="" class="nav-meio__wrap--img-divn" id="img">
+					<h2 class="teste__title" id="coxinha"></h2>
+					<ul class="teste__estilo-ul" >
+						<li class="ul-green"  id="primeiro"></li>
+						<li class="ul-green1" id="segundo"></li>
+						<li class="ul-green2" id="terceiro"></li>
+					</ul>	
+				</div>
+			</div>			
+		</div>
+	</footer>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
